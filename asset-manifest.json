@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/random-users/static/css/main.58434cd9.css",
+    "main.js": "/random-users/static/js/main.0bccd70b.js",
+    "static/js/787.28cb0dcd.chunk.js": "/random-users/static/js/787.28cb0dcd.chunk.js",
+    "static/media/aktivGroteskXbold.woff": "/random-users/static/media/aktivGroteskXbold.204adda3455ccb29fe4d.woff",
+    "static/media/aktivGroteskMedium.woff": "/random-users/static/media/aktivGroteskMedium.52e7c4a0163631c3bb6e.woff",
+    "index.html": "/random-users/index.html",
+    "static/media/like.svg": "/random-users/static/media/like.dd09125ea21e45e35adb36839b47ffda.svg",
+    "static/media/disslike.svg": "/random-users/static/media/disslike.39968b91a6ee46c2ed5a50254d005051.svg",
+    "static/media/chevron-down.svg": "/random-users/static/media/chevron-down.f1e8fe813aedf5a823e9d7811a6723c3.svg",
+    "main.58434cd9.css.map": "/random-users/static/css/main.58434cd9.css.map",
+    "main.0bccd70b.js.map": "/random-users/static/js/main.0bccd70b.js.map",
+    "787.28cb0dcd.chunk.js.map": "/random-users/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58434cd9.css",
+    "static/js/main.0bccd70b.js"
+  ]
+}
