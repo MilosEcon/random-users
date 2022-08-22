@@ -1,0 +1,47 @@
+.user {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 1rem;
+	border-radius: 2rem;
+	padding: 2rem;
+	width: 23rem;
+	position: relative;
+}
+
+.user > * {
+	margin: 0.5rem 0;
+}
+
+.male {
+	background-color: #ffeeb4;
+}
+
+.female {
+	background-color: #d2c4fb;
+}
+
+.image {
+	border-radius: 50%;
+}
+
+.fullName {
+	font-family: "Aktiv Grotesk XBold";
+	font-size: 2rem;
+}
+
+.detail {
+	border-bottom: 1px solid #014751;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 2px;
+}
+
+.favorite {
+	position: absolute;
+	top: 2rem;
+	left: 2rem;
+	height: 2rem;
+}

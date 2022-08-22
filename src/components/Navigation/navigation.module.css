@@ -1,0 +1,17 @@
+.active {
+	border: 2px solid #aff8c8;
+	background-color: #aff8c8;
+}
+
+.dissabled {
+	border: 2px solid #aff8c944;
+	background-color: #014751;
+	color: #aff8c944;
+}
+
+.navigation > button {
+	margin: 0 1.5rem;
+	width: 5rem;
+	height: 2rem;
+	border-radius: 0.6rem;
+}

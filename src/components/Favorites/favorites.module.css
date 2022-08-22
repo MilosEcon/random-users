@@ -1,0 +1,93 @@
+.favorites {
+	position: relative;
+	width: 15rem;
+	height: 3rem;
+}
+
+.toggleBtn {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 15rem;
+	height: 3rem;
+	border-radius: 3rem;
+	background-color: #aff8c8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	z-index: 101;
+}
+
+.toggleBtn > span {
+	font-family: "Aktiv Grotesk XBold";
+	font-size: 1.4rem;
+}
+
+.list {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 15rem;
+	border-radius: 1.5rem;
+	padding-top: 3.2rem;
+	padding-bottom: 0.1rem;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-end;
+	background-color: white;
+	z-index: 100;
+}
+
+.display {
+	display: flex;
+}
+
+.hide {
+	display: none;
+}
+
+.miniUser {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 15rem;
+	padding: 0.3rem;
+}
+
+.miniUser:hover {
+	background-color: #aff8c8;
+}
+
+.miniUser > * {
+	cursor: default;
+	padding: 0.3rem;
+}
+
+.image {
+	width: 3rem;
+	height: 3rem;
+	border-radius: 50%;
+}
+
+.description {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.fullName {
+	font-size: 0.7rem;
+}
+
+.email {
+	font-size: 0.5rem;
+}
+
+.removeElementBtn {
+	border: none;
+	background-color: rgba(0, 0, 0, 0);
+	color: rgb(98, 98, 98);
+}

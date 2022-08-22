@@ -1,0 +1,72 @@
+.sort {
+	position: relative;
+	width: 10rem;
+	height: 3rem;
+}
+
+.toggleBtn {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 10rem;
+	height: 3rem;
+	border-radius: 3rem;
+	background-color: #aff8c8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	z-index: 101;
+}
+
+.toggleBtn > span {
+	font-family: "Aktiv Grotesk XBold";
+	font-size: 1.4rem;
+}
+
+.list {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 10rem;
+	border-radius: 1.5rem;
+	padding-top: 3.2rem;
+	padding-bottom: 0.1rem;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	background-color: white;
+	z-index: 100;
+}
+
+.list > button {
+	margin-bottom: 0.5rem;
+	width: 100%;
+	height: 2rem;
+	border: none;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.list > button:hover {
+	background-color: #aff8c8;
+}
+
+.display {
+	transition: 0.3s ease-in-out;
+	display: flex;
+}
+
+.hide {
+	transition: 0.3s ease-in-out;
+	display: none;
+}
+
+.sortOpened {
+	transition: 0.3s ease-in-out;
+	transform: rotate(-180deg);
+}
+
+.sortClosed {
+	transition: 0.3s ease-in-out;
+	transform: rotate(0deg);
+}
